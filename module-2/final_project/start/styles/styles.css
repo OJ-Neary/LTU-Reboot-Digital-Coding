@@ -37,8 +37,11 @@ table {
 header .logoContainer{
     width: 300px;
     margin:0 auto;
-
 }
 img{
     max-width: 100%;
+}
+.copyrightContainer{
+	font-size: 22px;
+	text-align: center;
 }
