@@ -145,3 +145,32 @@ calculator(10,5,'/');
 calculator(10,5,'%');
 calculator('owen',5,'+');
 calculator(10,'owen','-'); 
+
+let arrItems = [
+    productName,
+    price,
+    quantity,
+    inStock,
+    discountAmount,
+];
+
+console.log(arrItems);
+
+let firstItem = arrItems[0];
+let lastItem = arrItems[4];
+
+console.log(firstItem);
+console.log(lastItem);
+
+// console.log(firstItem);
+// console.log(lastItem);
+
+let objItems = {
+    productName:'Tinned Beans',
+    price:'0.40',
+    quantity:1,
+    inStock:true,
+    discountAmount:0
+};
+
+console.log(objItems);
