@@ -173,4 +173,44 @@ let objItems = {
     discountAmount:0
 };
 
+console.log(objItems.productName);
+
+console.log(objItems['quantity']);
+
 console.log(objItems);
+
+objItems.productName = 'Sliced Bread';
+
+objItems['quantity'] = 10;
+
+console.log(objItems); 
+
+objItems.newVariable = 'productWeight';
+
+objItems['anotherNewVariable'] = 'productSize';
+
+console.log(objItems);
+
+arrColours = ['red','green','yellow','orange','blue'];
+
+console.log(arrColours);
+
+for(let counter=0; counter < arrColours.length; counter++){
+
+    console.log(counter);
+
+    console.log(arrColours[counter]);
+
+}
+
+function outputTimesTables(number){
+    for(multiplyer=1; multiplyer <= 12; multiplyer++){
+        let sum = multiplyer * number;
+        strMessage = number + ' * ' + multiplyer + ' = ' + sum;
+        console.log(strMessage);
+    }
+}
+
+for(counter=1; counter <= 12; counter++){
+    outputTimesTables(7);
+}
